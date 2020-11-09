@@ -14,7 +14,7 @@ spec:
         spec: 
             containers:
                 - name: microsservicob
-                  image: wesleywillians/microsservico-avancadev-b:latest
+                  image: ademirpereira/kube-teste-b:latest
                   ports: 
                     - containerPort: 9091
                   volumeMounts:
